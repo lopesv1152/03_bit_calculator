@@ -11,7 +11,7 @@ def num_check(question, low):
             response = int(input(question))
 
             # checks number is more than zero
-            if response > low:
+            if response >= low:
                 return response
             
             # outputs error if input is invalid
