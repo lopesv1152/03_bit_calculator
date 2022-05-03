@@ -40,4 +40,12 @@ def int_bits():
 
     # output answer with working
     print()
+    print("{} in binary is {}".format(var_integer, var_binary))
+    print("# of bits is {}".format(num_bits))
+    print()
+
+    return ""
+
+# Main Routine
+int_bits()
 
